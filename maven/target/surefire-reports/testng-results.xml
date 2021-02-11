@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="3" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[passcount: 2]]>
+    </line>
+    <line>
+      <![CDATA[FailCount: 0]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="67356" started-at="2021-02-11T08:17:41Z" finished-at="2021-02-11T08:18:48Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="67356" started-at="2021-02-11T08:17:41Z" finished-at="2021-02-11T08:18:48Z">
+      <class name="com.maven.scripts.TestIssueDate">
+        <test-method status="PASS" signature="OpenBrowser(java.lang.String)[pri:0, instance:com.maven.scripts.TestIssueDate@5056dfcb]" name="OpenBrowser" is-config="true" duration-ms="14430" started-at="2021-02-11T08:17:41Z" finished-at="2021-02-11T08:17:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method status="PASS" signature="OpenApplictaion()[pri:0, instance:com.maven.scripts.TestIssueDate@5056dfcb]" name="OpenApplictaion" is-config="true" duration-ms="6293" started-at="2021-02-11T08:17:55Z" finished-at="2021-02-11T08:18:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenApplictaion -->
+        <test-method status="PASS" signature="TestValidIssuDate()[pri:0, instance:com.maven.scripts.TestIssueDate@5056dfcb]" name="TestValidIssuDate" duration-ms="17993" started-at="2021-02-11T08:18:02Z" finished-at="2021-02-11T08:18:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestValidIssuDate -->
+        <test-method status="PASS" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:com.maven.scripts.TestIssueDate@5056dfcb]" name="closeBrowser" is-config="true" duration-ms="305" started-at="2021-02-11T08:18:20Z" finished-at="2021-02-11T08:18:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TestValidIssuDate status=SUCCESS method=TestIssueDate.TestValidIssuDate()[pri:0, instance:com.maven.scripts.TestIssueDate@5056dfcb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="PrintReport()[pri:0, instance:com.maven.scripts.TestIssueDate@5056dfcb]" name="PrintReport" is-config="true" duration-ms="0" started-at="2021-02-11T08:18:48Z" finished-at="2021-02-11T08:18:48Z">
+          <reporter-output>
+            <line>
+              <![CDATA[passcount: 2]]>
+            </line>
+            <line>
+              <![CDATA[FailCount: 0]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- PrintReport -->
+      </class> <!-- com.maven.scripts.TestIssueDate -->
+      <class name="com.maven.scripts.TestProductEdition">
+        <test-method status="PASS" signature="OpenBrowser(java.lang.String)[pri:0, instance:com.maven.scripts.TestProductEdition@6574b225]" name="OpenBrowser" is-config="true" duration-ms="8662" started-at="2021-02-11T08:18:20Z" finished-at="2021-02-11T08:18:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method status="PASS" signature="OpenApplictaion()[pri:0, instance:com.maven.scripts.TestProductEdition@6574b225]" name="OpenApplictaion" is-config="true" duration-ms="13796" started-at="2021-02-11T08:18:29Z" finished-at="2021-02-11T08:18:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenApplictaion -->
+        <test-method status="PASS" signature="TestValidProductEdition()[pri:0, instance:com.maven.scripts.TestProductEdition@6574b225]" name="TestValidProductEdition" duration-ms="5598" started-at="2021-02-11T08:18:43Z" finished-at="2021-02-11T08:18:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestValidProductEdition -->
+        <test-method status="PASS" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:com.maven.scripts.TestProductEdition@6574b225]" name="closeBrowser" is-config="true" duration-ms="256" started-at="2021-02-11T08:18:48Z" finished-at="2021-02-11T08:18:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TestValidProductEdition status=SUCCESS method=TestProductEdition.TestValidProductEdition()[pri:0, instance:com.maven.scripts.TestProductEdition@6574b225] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.maven.scripts.TestProductEdition -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,7 @@
+com\manevn\generics\BaseTest.class
+com\maven\pages\EnterTimeTrackPage.class
+com\maven\pages\TaskListPage.class
+com\manevn\generics\AutoConstant.class
+com\maven\pages\LicensesPage.class
+com\maven\pages\LoginPage.class
+com\manevn\generics\FWUtils.class
